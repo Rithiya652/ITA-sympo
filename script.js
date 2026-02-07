@@ -75,7 +75,6 @@ function initTouchSupport() {
         }
         lastTouchEnd = now;
     }, false);
-    
     // Add touch feedback to interactive elements
     const touchElements = document.querySelectorAll('.card, .tap-details-btn, .register-btn, .modal-close');
     
