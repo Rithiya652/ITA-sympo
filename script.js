@@ -112,6 +112,7 @@ function initEventCardModals() {
     eventCards.forEach(card => {
         const cardHeader = card.querySelector('.card-header');
         
+        
         // Create "Tap for Details" button
         const tapButton = document.createElement('div');
         tapButton.className = 'tap-details-btn';
