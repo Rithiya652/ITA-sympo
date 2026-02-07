@@ -82,7 +82,6 @@ function initTouchSupport() {
         element.addEventListener('touchstart', function() {
             this.classList.add('touch-active');
         }, { passive: true });
-        
         element.addEventListener('touchend', function() {
             setTimeout(() => {
                 this.classList.remove('touch-active');
